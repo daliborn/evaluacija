@@ -1,0 +1,27 @@
+{
+  "evaluacijaApp": {
+    "mentorskiRad": {
+      "home": {
+        "title": "Mentorski Rads",
+        "createLabel": "Create a new Mentorski Rad",
+        "createOrEditLabel": "Create or edit a Mentorski Rad",
+        "notFound": "No Mentorski Rads found"
+      },
+      "created": "A new Mentorski Rad is created with identifier {{ param }}",
+      "updated": "A Mentorski Rad is updated with identifier {{ param }}",
+      "deleted": "A Mentorski Rad is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Mentorski Rad {{ id }}?"
+      },
+      "detail": {
+        "title": "Mentorski Rad"
+      },
+      "naziv": "Naziv",
+      "datumPocetkaMentorskogRada": "Datum Pocetka Mentorskog Rada",
+      "datumZavrsetkaMentorskogRada": "Datum Zavrsetka Mentorskog Rada",
+      "oblasti": "Oblasti",
+      "vrstaMentorstva": "Vrsta Mentorstva",
+      "nastavnici": "Nastavnici"
+    }
+  }
+}

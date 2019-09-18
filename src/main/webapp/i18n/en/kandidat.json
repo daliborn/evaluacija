@@ -1,0 +1,25 @@
+{
+  "evaluacijaApp": {
+    "kandidat": {
+      "home": {
+        "title": "Kandidats",
+        "createLabel": "Create a new Kandidat",
+        "createOrEditLabel": "Create or edit a Kandidat",
+        "notFound": "No Kandidats found"
+      },
+      "created": "A new Kandidat is created with identifier {{ param }}",
+      "updated": "A Kandidat is updated with identifier {{ param }}",
+      "deleted": "A Kandidat is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Kandidat {{ id }}?"
+      },
+      "detail": {
+        "title": "Kandidat"
+      },
+      "ime": "Ime",
+      "prezime": "Prezime",
+      "jmbg": "Jmbg",
+      "diplome": "Diplome"
+    }
+  }
+}

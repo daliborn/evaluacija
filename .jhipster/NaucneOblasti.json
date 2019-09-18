@@ -1,0 +1,27 @@
+{
+    "name": "NaucneOblasti",
+    "fields": [
+        {
+            "fieldName": "oblast",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "zavrsniRad",
+            "otherEntityRelationshipName": "oblasti",
+            "relationshipName": "zavrsniRadovi",
+            "otherEntityField": "naziv"
+        }
+    ],
+    "changelogDate": "20190918071225",
+    "entityTableName": "naucne_oblasti",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

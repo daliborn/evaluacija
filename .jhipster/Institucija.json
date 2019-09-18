@@ -1,0 +1,34 @@
+{
+    "name": "Institucija",
+    "fields": [
+        {
+            "fieldName": "sifra",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "naziv",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mjesto",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "zavrsniRad",
+            "otherEntityRelationshipName": "institucija",
+            "relationshipName": "zavrsniRadovi"
+        }
+    ],
+    "changelogDate": "20190918071220",
+    "entityTableName": "institucija",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

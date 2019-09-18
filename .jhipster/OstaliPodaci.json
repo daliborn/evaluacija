@@ -1,0 +1,32 @@
+{
+    "name": "OstaliPodaci",
+    "fields": [
+        {
+            "fieldName": "ostalo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "datum",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "nastavnik",
+            "otherEntityRelationshipName": "ostaliPodaci",
+            "relationshipName": "nastavnici",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190918071224",
+    "entityTableName": "ostali_podaci",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,28 @@
+{
+  "evaluacijaApp": {
+    "zavrsniRad": {
+      "home": {
+        "title": "Zavrsni Rads",
+        "createLabel": "Zavrsni Rad erstellen",
+        "createOrEditLabel": "Zavrsni Rad erstellen oder bearbeiten",
+        "notFound": "No Zavrsni Rads found"
+      },
+      "created": "Zavrsni Rad erstellt mit ID {{ param }}",
+      "updated": "Zavrsni Rad aktualisiert mit ID {{ param }}",
+      "deleted": "Zavrsni Rad gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Zavrsni Rad {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Zavrsni Rad"
+      },
+      "tipStudija": "Tip Studija",
+      "mentor": "Mentor",
+      "naziv": "Naziv",
+      "datumZavrsetkaRada": "Datum Zavrsetka Rada",
+      "oblasti": "Oblasti",
+      "institucija": "Institucija",
+      "nastavnici": "Nastavnici"
+    }
+  }
+}

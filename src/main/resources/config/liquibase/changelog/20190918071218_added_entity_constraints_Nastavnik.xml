@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Nastavnik.
+    -->
+    <changeSet id="20190918071218-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="nastavnik_id"
+                                 baseTableName="nastavnik_zavrsni_radovi"
+                                 constraintName="fk_nastavnik_zavrsni_radovi_nastavnik_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="nastavnik"/>
+
+        <addForeignKeyConstraint baseColumnNames="zavrsni_radovi_id"
+                                 baseTableName="nastavnik_zavrsni_radovi"
+                                 constraintName="fk_nastavnik_zavrsni_radovi_zavrsni_radovi_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="zavrsni_rad"/>
+        
+        <addForeignKeyConstraint baseColumnNames="nastavnik_id"
+                                 baseTableName="nastavnik_projekti"
+                                 constraintName="fk_nastavnik_projekti_nastavnik_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="nastavnik"/>
+
+        <addForeignKeyConstraint baseColumnNames="projekti_id"
+                                 baseTableName="nastavnik_projekti"
+                                 constraintName="fk_nastavnik_projekti_projekti_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="projekat"/>
+        
+        <addForeignKeyConstraint baseColumnNames="nastavnik_id"
+                                 baseTableName="nastavnik_mentorski_rad"
+                                 constraintName="fk_nastavnik_mentorski_rad_nastavnik_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="nastavnik"/>
+
+        <addForeignKeyConstraint baseColumnNames="mentorski_rad_id"
+                                 baseTableName="nastavnik_mentorski_rad"
+                                 constraintName="fk_nastavnik_mentorski_rad_mentorski_rad_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="mentorski_rad"/>
+        
+        <addForeignKeyConstraint baseColumnNames="nastavnik_id"
+                                 baseTableName="nastavnik_aktivnosti"
+                                 constraintName="fk_nastavnik_aktivnosti_nastavnik_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="nastavnik"/>
+
+        <addForeignKeyConstraint baseColumnNames="aktivnosti_id"
+                                 baseTableName="nastavnik_aktivnosti"
+                                 constraintName="fk_nastavnik_aktivnosti_aktivnosti_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="aktivnosti"/>
+        
+        <addForeignKeyConstraint baseColumnNames="nastavnik_id"
+                                 baseTableName="nastavnik_ostali_podaci"
+                                 constraintName="fk_nastavnik_ostali_podaci_nastavnik_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="nastavnik"/>
+
+        <addForeignKeyConstraint baseColumnNames="ostali_podaci_id"
+                                 baseTableName="nastavnik_ostali_podaci"
+                                 constraintName="fk_nastavnik_ostali_podaci_ostali_podaci_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ostali_podaci"/>
+        
+    </changeSet>
+</databaseChangeLog>

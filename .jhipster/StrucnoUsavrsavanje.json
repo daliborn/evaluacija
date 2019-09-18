@@ -1,0 +1,37 @@
+{
+    "name": "StrucnoUsavrsavanje",
+    "fields": [
+        {
+            "fieldName": "naziv",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "pocetakUsavrsavanja",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "krajUsavrsavanja",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "aktivnosti",
+            "otherEntityName": "aktivnosti",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190918071228",
+    "entityTableName": "strucno_usavrsavanje",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

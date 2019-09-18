@@ -1,0 +1,25 @@
+{
+  "evaluacijaApp": {
+    "institucija": {
+      "home": {
+        "title": "Institucije",
+        "createLabel": "Kreiraj novu Instituciju",
+        "createOrEditLabel": "Kreirajte ili izmenite Instituciju",
+        "notFound": "Institucija nije pronadjena"
+      },
+      "created": "Kreirana je nova Institucija pod nazivom {{ param }}",
+      "updated": "Institucija pod nazivom {{ param }} je ažurirana",
+      "deleted": "Institucija pod nazivom {{ param }} je obrisana",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Instituciju pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Institucija"
+      },
+      "sifra": "Sifra",
+      "naziv": "Naziv",
+      "mjesto": "Mjesto",
+      "zavrsniRadovi": "Zavrsni Radovi"
+    }
+  }
+}

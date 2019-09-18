@@ -1,0 +1,25 @@
+{
+  "evaluacijaApp": {
+    "strucnoUsavrsavanje": {
+      "home": {
+        "title": "Strucno Usavrsavanjes",
+        "createLabel": "Strucno Usavrsavanje erstellen",
+        "createOrEditLabel": "Strucno Usavrsavanje erstellen oder bearbeiten",
+        "notFound": "No Strucno Usavrsavanjes found"
+      },
+      "created": "Strucno Usavrsavanje erstellt mit ID {{ param }}",
+      "updated": "Strucno Usavrsavanje aktualisiert mit ID {{ param }}",
+      "deleted": "Strucno Usavrsavanje gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Strucno Usavrsavanje {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Strucno Usavrsavanje"
+      },
+      "naziv": "Naziv",
+      "pocetakUsavrsavanja": "Pocetak Usavrsavanja",
+      "krajUsavrsavanja": "Kraj Usavrsavanja",
+      "aktivnosti": "Aktivnosti"
+    }
+  }
+}

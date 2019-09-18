@@ -1,0 +1,28 @@
+{
+  "evaluacijaApp": {
+    "zavrsniRad": {
+      "home": {
+        "title": "Zavrsni Radovi",
+        "createLabel": "Kreiraj novi Zavrsni Rad",
+        "createOrEditLabel": "Kreirajte ili izmenite Zavrsni Rad",
+        "notFound": "Zavrsni Radovi nisu pronadjeni"
+      },
+      "created": "Kreiran je novi Zavrsni Rad pod nazivom {{ param }}",
+      "updated": "Zavrsni Rad pod nazivom {{ param }} je ažuriran",
+      "deleted": "Zavrsni Rad pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Zavrsni Rad pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Zavrsni Rad"
+      },
+      "tipStudija": "Tip Studija",
+      "mentor": "Mentor",
+      "naziv": "Naziv",
+      "datumZavrsetkaRada": "Datum Zavrsetka Rada",
+      "oblasti": "Oblasti",
+      "institucija": "Institucija",
+      "nastavnici": "Nastavnici"
+    }
+  }
+}

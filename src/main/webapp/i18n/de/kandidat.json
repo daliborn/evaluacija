@@ -1,0 +1,25 @@
+{
+  "evaluacijaApp": {
+    "kandidat": {
+      "home": {
+        "title": "Kandidats",
+        "createLabel": "Kandidat erstellen",
+        "createOrEditLabel": "Kandidat erstellen oder bearbeiten",
+        "notFound": "No Kandidats found"
+      },
+      "created": "Kandidat erstellt mit ID {{ param }}",
+      "updated": "Kandidat aktualisiert mit ID {{ param }}",
+      "deleted": "Kandidat gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Kandidat {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Kandidat"
+      },
+      "ime": "Ime",
+      "prezime": "Prezime",
+      "jmbg": "Jmbg",
+      "diplome": "Diplome"
+    }
+  }
+}

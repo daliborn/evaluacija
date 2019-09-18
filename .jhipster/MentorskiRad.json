@@ -1,0 +1,55 @@
+{
+    "name": "MentorskiRad",
+    "fields": [
+        {
+            "fieldName": "naziv",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "datumPocetkaMentorskogRada",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "datumZavrsetkaMentorskogRada",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "kandidat",
+            "otherEntityRelationshipName": "diplome",
+            "relationshipName": "oblasti",
+            "otherEntityField": "prezime",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "vrstaMentorstva",
+            "otherEntityRelationshipName": "diplome",
+            "relationshipName": "vrstaMentorstva",
+            "otherEntityField": "tip",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "nastavnik",
+            "otherEntityRelationshipName": "mentorskiRad",
+            "relationshipName": "nastavnici",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190918071222",
+    "entityTableName": "mentorski_rad",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

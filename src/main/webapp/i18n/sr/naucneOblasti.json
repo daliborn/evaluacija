@@ -1,0 +1,23 @@
+{
+  "evaluacijaApp": {
+    "naucneOblasti": {
+      "home": {
+        "title": "Naucne Oblasti",
+        "createLabel": "Kreiraj nove Naucne Oblasti",
+        "createOrEditLabel": "Kreirajte ili izmenite Naucne Oblasti",
+        "notFound": "Naucne Oblasti nisu pronadjene"
+      },
+      "created": "Kreirana je nova Naucna Oblast pod nazivom {{ param }}",
+      "updated": "Naucna Oblast pod nazivom {{ param }} je ažurirana",
+      "deleted": "Naucna Oblast pod nazivom {{ param }} je obrisana",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Naucne Oblasti pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Naucne Oblasti"
+      },
+      "oblast": "Oblast",
+      "zavrsniRadovi": "Zavrsni Radovi"
+    }
+  }
+}

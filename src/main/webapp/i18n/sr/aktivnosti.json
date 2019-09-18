@@ -1,0 +1,27 @@
+{
+  "evaluacijaApp": {
+    "aktivnosti": {
+      "home": {
+        "title": "Aktivnosti",
+        "createLabel": "Kreiraj novu Aktivnost",
+        "createOrEditLabel": "Kreirajte ili izmenite Aktivnost",
+        "notFound": "Aktivnostis nisu pronadjene"
+      },
+      "created": "Kreirana je nova Aktivnost pod nazivom {{ param }}",
+      "updated": "Aktivnost pod nazivom {{ param }} je ažuriran",
+      "deleted": "Aktivnost pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Aktivnost pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Aktivnosti"
+      },
+      "brojCitata": "Broj Citata",
+      "brojRadova": "Broj Radova",
+      "brojDomaciProjekata": "Broj Domaci Projekata",
+      "brojMedjunarodnihProjekata": "Broj Medjunarodnih Projekata",
+      "usavrsavanja": "Usavrsavanja",
+      "nastavnici": "Nastavnici"
+    }
+  }
+}

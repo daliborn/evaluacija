@@ -1,0 +1,25 @@
+{
+  "evaluacijaApp": {
+    "strucnoUsavrsavanje": {
+      "home": {
+        "title": "Strucno Usavrsavanje",
+        "createLabel": "Kreiraj novo Strucno Usavrsavanje",
+        "createOrEditLabel": "Kreirajte ili izmenite Strucno Usavrsavanje",
+        "notFound": "Strucno Usavrsavanje nije pronadjeno"
+      },
+      "created": "Kreiran je novo Strucno Usavrsavanje pod nazivom {{ param }}",
+      "updated": "Strucno Usavrsavanje pod nazivom {{ param }} je ažurirano",
+      "deleted": "Strucno Usavrsavanje pod nazivom {{ param }} je obrisano",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Strucno Usavrsavanje pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Strucno Usavrsavanje"
+      },
+      "naziv": "Naziv",
+      "pocetakUsavrsavanja": "Pocetak Usavrsavanja",
+      "krajUsavrsavanja": "Kraj Usavrsavanja",
+      "aktivnosti": "Aktivnosti"
+    }
+  }
+}

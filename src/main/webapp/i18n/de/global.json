@@ -7,6 +7,17 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entitäten",
+        "nastavnik": "Nastavnik",
+        "zavrsniRad": "Zavrsni Rad",
+        "institucija": "Institucija",
+        "projekat": "Projekat",
+        "mentorskiRad": "Mentorski Rad",
+        "aktivnosti": "Aktivnosti",
+        "ostaliPodaci": "Ostali Podaci",
+        "naucneOblasti": "Naucne Oblasti",
+        "kandidat": "Kandidat",
+        "vrstaMentorstva": "Vrsta Mentorstva",
+        "strucnoUsavrsavanje": "Strucno Usavrsavanje",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

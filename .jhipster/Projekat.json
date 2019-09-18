@@ -1,0 +1,46 @@
+{
+    "name": "Projekat",
+    "fields": [
+        {
+            "fieldName": "naziv",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "vrstaProjekta",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "datumZavrsetkaProjekta",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "datumPocetkaProjekta",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "nastavnik",
+            "otherEntityRelationshipName": "projekti",
+            "relationshipName": "nastavnici",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190918071221",
+    "entityTableName": "projekat",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,24 @@
+{
+  "evaluacijaApp": {
+    "ostaliPodaci": {
+      "home": {
+        "title": "Ostali Podaci",
+        "createLabel": "Kreiraj nove Ostale Podatke",
+        "createOrEditLabel": "Kreirajte ili izmenite Ostale Podatke",
+        "notFound": "Ostali Podaci nisu pronadjeni"
+      },
+      "created": "Kreiran je novi Ostali Podatak pod nazivom {{ param }}",
+      "updated": "Ostali Podaci pod nazivom {{ param }} je ažuriran",
+      "deleted": "Ostali Podaci pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Ostali Podaci pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Ostali Podaci"
+      },
+      "ostalo": "Ostalo",
+      "datum": "Datum",
+      "nastavnici": "Nastavnici"
+    }
+  }
+}

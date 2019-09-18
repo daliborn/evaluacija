@@ -1,0 +1,23 @@
+{
+  "evaluacijaApp": {
+    "vrstaMentorstva": {
+      "home": {
+        "title": "Vrsta Mentorstvas",
+        "createLabel": "Create a new Vrsta Mentorstva",
+        "createOrEditLabel": "Create or edit a Vrsta Mentorstva",
+        "notFound": "No Vrsta Mentorstvas found"
+      },
+      "created": "A new Vrsta Mentorstva is created with identifier {{ param }}",
+      "updated": "A Vrsta Mentorstva is updated with identifier {{ param }}",
+      "deleted": "A Vrsta Mentorstva is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Vrsta Mentorstva {{ id }}?"
+      },
+      "detail": {
+        "title": "Vrsta Mentorstva"
+      },
+      "tip": "Tip",
+      "diplome": "Diplome"
+    }
+  }
+}

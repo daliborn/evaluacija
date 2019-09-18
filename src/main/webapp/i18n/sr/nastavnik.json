@@ -1,0 +1,30 @@
+{
+  "evaluacijaApp": {
+    "nastavnik": {
+      "home": {
+        "title": "Nastavnici",
+        "createLabel": "Kreiraj novog Nastavnika",
+        "createOrEditLabel": "Kreirajte ili izmenite Nastavnika",
+        "notFound": "Nastavnik nije pronadjen"
+      },
+      "created": "Kreiran je novi Nastavnik pod nazivom {{ param }}",
+      "updated": "Nastavnik pod nazivom {{ param }} je ažuriran",
+      "deleted": "Nastavnik pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Nastavnik pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Nastavnik"
+      },
+      "ime": "Ime",
+      "prezime": "Prezime",
+      "titula": "Titula",
+      "fotografija": "Fotografija",
+      "zavrsniRadovi": "Zavrsni Radovi",
+      "projekti": "Projekti",
+      "mentorskiRad": "Mentorski Radovi",
+      "aktivnosti": "Aktivnosti",
+      "ostaliPodaci": "Ostali Podaci"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "name": "ZavrsniRad",
+    "fields": [
+        {
+            "fieldName": "tipStudija",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "mentor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "naziv",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "datumZavrsetkaRada",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "naucneOblasti",
+            "otherEntityRelationshipName": "zavrsniRadovi",
+            "relationshipName": "oblasti"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "institucija",
+            "otherEntityRelationshipName": "zavrsniRadovi",
+            "relationshipName": "institucija",
+            "otherEntityField": "naziv"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "nastavnik",
+            "otherEntityRelationshipName": "zavrsniRadovi",
+            "relationshipName": "nastavnici",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190918071219",
+    "entityTableName": "zavrsni_rad",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

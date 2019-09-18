@@ -1,0 +1,30 @@
+{
+  "evaluacijaApp": {
+    "nastavnik": {
+      "home": {
+        "title": "Nastavniks",
+        "createLabel": "Nastavnik erstellen",
+        "createOrEditLabel": "Nastavnik erstellen oder bearbeiten",
+        "notFound": "No Nastavniks found"
+      },
+      "created": "Nastavnik erstellt mit ID {{ param }}",
+      "updated": "Nastavnik aktualisiert mit ID {{ param }}",
+      "deleted": "Nastavnik gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Nastavnik {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Nastavnik"
+      },
+      "ime": "Ime",
+      "prezime": "Prezime",
+      "titula": "Titula",
+      "fotografija": "Fotografija",
+      "zavrsniRadovi": "Zavrsni Radovi",
+      "projekti": "Projekti",
+      "mentorskiRad": "Mentorski Rad",
+      "aktivnosti": "Aktivnosti",
+      "ostaliPodaci": "Ostali Podaci"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "evaluacijaApp": {
+    "ostaliPodaci": {
+      "home": {
+        "title": "Ostali Podacis",
+        "createLabel": "Ostali Podaci erstellen",
+        "createOrEditLabel": "Ostali Podaci erstellen oder bearbeiten",
+        "notFound": "No Ostali Podacis found"
+      },
+      "created": "Ostali Podaci erstellt mit ID {{ param }}",
+      "updated": "Ostali Podaci aktualisiert mit ID {{ param }}",
+      "deleted": "Ostali Podaci gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Ostali Podaci {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Ostali Podaci"
+      },
+      "ostalo": "Ostalo",
+      "datum": "Datum",
+      "nastavnici": "Nastavnici"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "VrstaMentorstva",
+    "fields": [
+        {
+            "fieldName": "tip",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "mentorskiRad",
+            "otherEntityRelationshipName": "vrstaMentorstva",
+            "relationshipName": "diplome",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190918071227",
+    "entityTableName": "vrsta_mentorstva",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

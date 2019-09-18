@@ -1,0 +1,23 @@
+{
+  "evaluacijaApp": {
+    "naucneOblasti": {
+      "home": {
+        "title": "Naucne Oblastis",
+        "createLabel": "Naucne Oblasti erstellen",
+        "createOrEditLabel": "Naucne Oblasti erstellen oder bearbeiten",
+        "notFound": "No Naucne Oblastis found"
+      },
+      "created": "Naucne Oblasti erstellt mit ID {{ param }}",
+      "updated": "Naucne Oblasti aktualisiert mit ID {{ param }}",
+      "deleted": "Naucne Oblasti gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Naucne Oblasti {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Naucne Oblasti"
+      },
+      "oblast": "Oblast",
+      "zavrsniRadovi": "Zavrsni Radovi"
+    }
+  }
+}

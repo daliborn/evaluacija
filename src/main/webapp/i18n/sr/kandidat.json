@@ -1,0 +1,25 @@
+{
+  "evaluacijaApp": {
+    "kandidat": {
+      "home": {
+        "title": "Kandidati",
+        "createLabel": "Kreiraj novog Kandidata",
+        "createOrEditLabel": "Kreirajte ili izmenite Kandidata",
+        "notFound": "Kandidati nisu pronadjeni"
+      },
+      "created": "Kreiran je novi Kandidat pod nazivom {{ param }}",
+      "updated": "Kandidat pod nazivom {{ param }} je ažuriran",
+      "deleted": "Kandidat pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Kandidat pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Kandidat"
+      },
+      "ime": "Ime",
+      "prezime": "Prezime",
+      "jmbg": "Jmbg",
+      "diplome": "Diplome"
+    }
+  }
+}

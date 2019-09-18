@@ -7,6 +7,17 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entiteti",
+        "nastavnik": "Nastavnik",
+        "zavrsniRad": "Zavrsni Rad",
+        "institucija": "Institucija",
+        "projekat": "Projekat",
+        "mentorskiRad": "Mentorski Rad",
+        "aktivnosti": "Aktivnosti",
+        "ostaliPodaci": "Ostali Podaci",
+        "naucneOblasti": "Naucne Oblasti",
+        "kandidat": "Kandidat",
+        "vrstaMentorstva": "Vrsta Mentorstva",
+        "strucnoUsavrsavanje": "Strucno Usavrsavanje",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -129,5 +140,5 @@
     "idexists": "Novi {{ entityName }} ne može sadržati ID",
     "idnull": "Invalid ID"
   },
-  "footer": "Ovo je vaše podnožje"
+  "footer": "© Apeiron - Web servisi i splikacije - Dalibor Ninković 2019"
 }

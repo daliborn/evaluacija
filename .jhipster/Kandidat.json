@@ -1,0 +1,41 @@
+{
+    "name": "Kandidat",
+    "fields": [
+        {
+            "fieldName": "ime",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "prezime",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "jmbg",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "mentorskiRad",
+            "otherEntityRelationshipName": "oblasti",
+            "relationshipName": "diplome",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190918071226",
+    "entityTableName": "kandidat",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,26 @@
+{
+  "evaluacijaApp": {
+    "projekat": {
+      "home": {
+        "title": "Projekti",
+        "createLabel": "Kreiraj novi Projekat",
+        "createOrEditLabel": "Kreirajte ili izmenite Projekat",
+        "notFound": "Projekti nisu pronadjeni"
+      },
+      "created": "Kreiran je novi Projekat pod nazivom {{ param }}",
+      "updated": "Projekat pod nazivom {{ param }} je ažuriran",
+      "deleted": "Projekat pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Projekat pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Projekat"
+      },
+      "naziv": "Naziv",
+      "vrstaProjekta": "Vrsta Projekta",
+      "datumZavrsetkaProjekta": "Datum Zavrsetka Projekta",
+      "datumPocetkaProjekta": "Datum Pocetka Projekta",
+      "nastavnici": "Nastavnici"
+    }
+  }
+}

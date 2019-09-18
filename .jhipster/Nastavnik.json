@@ -1,0 +1,82 @@
+{
+    "name": "Nastavnik",
+    "fields": [
+        {
+            "fieldName": "ime",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "prezime",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "titula",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "fotografija",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "zavrsniRad",
+            "otherEntityRelationshipName": "nastavnici",
+            "relationshipName": "zavrsniRadovi",
+            "otherEntityField": "naziv",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "projekat",
+            "otherEntityRelationshipName": "nastavnici",
+            "relationshipName": "projekti",
+            "otherEntityField": "naziv",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "mentorskiRad",
+            "otherEntityRelationshipName": "nastavnici",
+            "relationshipName": "mentorskiRad",
+            "otherEntityField": "naziv",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "aktivnosti",
+            "otherEntityRelationshipName": "nastavnici",
+            "relationshipName": "aktivnosti",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "ostaliPodaci",
+            "otherEntityRelationshipName": "nastavnici",
+            "relationshipName": "ostaliPodaci",
+            "otherEntityField": "ostalo",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190918071218",
+    "entityTableName": "nastavnik",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

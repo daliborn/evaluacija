@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Dobrodošli, Java Hipsteru!",
-    "subtitle": "Ovo je Vaša početna stranica",
+    "title": "Dobrodošli, na sistem za evaluaciju nastavnika!",
+    "subtitle": "Apeiron - Dalibor Ninković",
     "logged": {
       "message": "Prijavljeni ste kao korisnik \"{{username}}\"."
     },

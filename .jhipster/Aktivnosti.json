@@ -1,0 +1,46 @@
+{
+    "name": "Aktivnosti",
+    "fields": [
+        {
+            "fieldName": "brojCitata",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "brojRadova",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "brojDomaciProjekata",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "brojMedjunarodnihProjekata",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "strucnoUsavrsavanje",
+            "otherEntityRelationshipName": "aktivnosti",
+            "relationshipName": "usavrsavanja"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "nastavnik",
+            "otherEntityRelationshipName": "aktivnosti",
+            "relationshipName": "nastavnici",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190918071223",
+    "entityTableName": "aktivnosti",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

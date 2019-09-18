@@ -1,0 +1,26 @@
+{
+  "evaluacijaApp": {
+    "projekat": {
+      "home": {
+        "title": "Projekats",
+        "createLabel": "Projekat erstellen",
+        "createOrEditLabel": "Projekat erstellen oder bearbeiten",
+        "notFound": "No Projekats found"
+      },
+      "created": "Projekat erstellt mit ID {{ param }}",
+      "updated": "Projekat aktualisiert mit ID {{ param }}",
+      "deleted": "Projekat gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Projekat {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Projekat"
+      },
+      "naziv": "Naziv",
+      "vrstaProjekta": "Vrsta Projekta",
+      "datumZavrsetkaProjekta": "Datum Zavrsetka Projekta",
+      "datumPocetkaProjekta": "Datum Pocetka Projekta",
+      "nastavnici": "Nastavnici"
+    }
+  }
+}
