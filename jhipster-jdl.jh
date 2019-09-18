@@ -1,0 +1,93 @@
+entity Nastavnik{
+	ime String required,
+    prezime String required,
+    titula String required,
+    fotografija Blob
+}
+
+entity ZavrsniRad{
+	tipStudija String required,
+    mentor String,
+    naziv String required,
+    datumZavrsetkaRada ZonedDateTime,
+}
+
+entity Institucija{
+	sifra String,
+    naziv String,
+    mjesto String
+}
+
+entity Projekat{
+	naziv String required, 
+    vrstaProjekta String required,
+    datumZavrsetkaProjekta ZonedDateTime,
+    datumPocetkaProjekta ZonedDateTime,
+}
+
+entity MentorskiRad{
+	naziv String required, 
+    datumPocetkaMentorskogRada ZonedDateTime,
+    datumZavrsetkaMentorskogRada ZonedDateTime,
+}
+
+entity Aktivnosti{
+	brojCitata Integer,
+    //broj radova sa SCI(SSCI) liste
+    brojRadova Integer,    
+    brojDomaciProjekata Integer,
+    brojMedjunarodnihProjekata Integer,
+}
+
+entity OstaliPodaci{
+	ostalo String,
+    datum ZonedDateTime,
+}
+
+entity NaucneOblasti{
+	oblast String
+}
+
+entity Kandidat{
+	ime String required,
+    prezime String required,
+    jmbg String
+}
+
+entity VrstaMentorstva{
+	tip String required,
+}
+
+entity StrucnoUsavrsavanje{
+	naziv String required,
+    pocetakUsavrsavanja ZonedDateTime,
+    krajUsavrsavanja ZonedDateTime,
+}
+
+relationship ManyToMany {
+  Nastavnik{zavrsniRadovi(naziv)} to ZavrsniRad{nastavnici}
+  Nastavnik{projekti(naziv)} to Projekat{nastavnici}
+  Nastavnik{mentorskiRad(naziv)} to MentorskiRad{nastavnici}
+  Nastavnik{aktivnosti} to Aktivnosti{nastavnici}
+  Nastavnik{ostaliPodaci(ostalo)} to OstaliPodaci{nastavnici}
+}
+
+relationship OneToMany {
+  Institucija{zavrsniRadovi(naziv)} to ZavrsniRad{institucija(naziv)}
+}
+
+relationship OneToMany {
+  ZavrsniRad{oblasti(oblast)} to NaucneOblasti{zavrsniRadovi(naziv)}
+}
+
+relationship OneToMany {
+  Aktivnosti{usavrsavanja(naziv)} to StrucnoUsavrsavanje
+}
+
+relationship OneToOne {
+  MentorskiRad{oblasti(prezime)} to Kandidat{diplome(naziv)}
+}
+
+relationship OneToOne {
+  MentorskiRad{vrstaMentorstva(tip)} to VrstaMentorstva{diplome(naziv)}
+}

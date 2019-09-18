@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "eu.apeiron.dalibor.evaulacija",
+      "nativeLanguage": "sr"
+    },
+    "jhipsterVersion": "6.3.0",
+    "applicationType": "monolith",
+    "baseName": "evaluacija",
+    "packageName": "eu.apeiron.dalibor.evaulacija",
+    "packageFolder": "eu/apeiron/dalibor/evaulacija",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "rememberMeKey": "7ca2b0ed6ac2676ad31c0e80a50e4e8ce75ce2906d2e87ce9f5c7f1376b657b4e81d382592d83c807076f76477ed494bbb6a",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "cerulean",
+    "clientThemeVariant": "primary",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "sr",
+    "languages": ["sr", "en", "de"],
+    "blueprints": []
+  }
+}
